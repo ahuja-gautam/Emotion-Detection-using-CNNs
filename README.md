@@ -79,6 +79,9 @@ Trainable params: 3,297,139
 Non-trainable params: 2,432
 ```
 # Findings
+[Confusion Matrix:](https://imgur.com/8Yq5Syx)
+
+
 -Disgust has very few samples in the dataset. There is also some misclassification between Disgust and Anger which show similar features like raised eyebrows.
 
 -Anger in some cases is classified as Neutral
