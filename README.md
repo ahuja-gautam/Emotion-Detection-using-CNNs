@@ -13,7 +13,7 @@ Please download the dataset and extract it in the master directory if you wish t
 # Features
 -Accuracy of 63.2% achieved which would place us [9th in the Leaderboard](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/leaderboard)
 
--Dataset split into 90% train: 10% split
+-Dataset split into 90% train: 10% test
 
 -Used Data Augmentation including but not limited to rotation and zooming of image
 
