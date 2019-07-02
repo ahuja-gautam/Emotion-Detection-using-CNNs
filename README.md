@@ -10,8 +10,11 @@ Please download the dataset and extract it in the master directory if you wish t
 
 # Features
 -Accuracy of 63.2% achieved which would place us [9th in the Leaderboard](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/leaderboard)
+
 -Dataset split into 90% train: 10% split
+
 -Used Data Augmentation including but not limited to rotation and zooming of image
+
 -Normalised dataset between [0,1] to reduce computation load.
 
 # Model Architecture
@@ -68,11 +71,14 @@ Trainable params: 3,297,139
 Non-trainable params: 2,432
 ```
 # Findings
--Disgust has very few samples in the dataset. 
-There is also some misclassification between Disgust and Anger which show similar features like raised eyebrows.
+-Disgust has very few samples in the dataset. There is also some misclassification between Disgust and Anger which show similar features like raised eyebrows.
+
 -Anger in some cases is classified as Neutral
+
 -Fear is classified mostly between Fear, Sad, and Neutral
+
 -Sad is also sometimes classified as Neutral
+
 These issues mostly arise due to the quality of the dataset and due to the limitations of CNN
 
 
