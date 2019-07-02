@@ -79,7 +79,7 @@ Trainable params: 3,297,139
 Non-trainable params: 2,432
 ```
 # Findings
-[Confusion Matrix:](https://imgur.com/8Yq5Syx)
+[Confusion Matrix:](https://github.com/ahuja-gautam/Emotion-Detection-via-Webcam/blob/master/ConfusionMatrix.PNG)
 
 
 -Disgust has very few samples in the dataset. There is also some misclassification between Disgust and Anger which show similar features like raised eyebrows.
