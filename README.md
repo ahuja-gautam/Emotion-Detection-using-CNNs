@@ -5,7 +5,9 @@ Please download the dataset and extract it in the master directory if you wish t
 
 # Usage
 1)Download 'model_1.h5' and main.ipynb  The model is stored in the .h5 file
+
 2)Run main.ipynb and place your face in the bounding box
+
 3)Please ensure your surroundings are well lit and your face is evenly lit for best results.
 
 # Features
