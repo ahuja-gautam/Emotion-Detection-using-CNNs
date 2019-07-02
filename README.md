@@ -15,8 +15,8 @@ Please download the dataset and extract it in the master directory if you wish t
 4)The video recording of your emotions is saved in 'Emotions.mp4v'. If you do not want this feature comment out the lines:
 
 fourcc = cv2.VideoWriter_fourcc('m','p','4','v')
-
 out = cv2.VideoWriter('Emotions.mp4v', fourcc, 20.0, (640, 480))
+out.release()
 
 # Features
 -Accuracy of 63.2% achieved which would place us [9th in the Leaderboard](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/leaderboard)
