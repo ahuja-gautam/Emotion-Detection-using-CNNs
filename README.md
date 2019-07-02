@@ -1,5 +1,7 @@
 # Emotion Detection with CNNs
 
+Use your webcam to predict emotions in real time!
+
 Dataset Used: [FER dataset (Kaggle)](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
 Please download the dataset and extract it in the master directory if you wish to train the model yourself. (It was trained on Google Colab so please make necessary changes in the directory structure if you wish to train it locally)
 
